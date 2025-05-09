@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expressões aritméticas</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    
+      <h1>
+        Informe um número: 
+      </h1>
+    
+
+    <section>
+      <form action="selector.php" method="get">
+        <label for="number">Número: </label>
+        <input type="number" name="number" id="idnumber">
+        <input type="submit" value="Enviar">
+      </form>
+      <br>
+    </section>
+
+    <h1>Gerando Números aleatórios</h1>
+
+      <section>
+        <form action="aleatorios.php" method="get">
+          <label for="number1">
+            Digite o primeiro número:
+          </label>
+          <input type="number" name="number1" id="idnumber1">
+          <label for="number2">
+            Digite o segundo número: 
+          </label>
+          <input type="number" name="number2" id="idnumber2">
+          <input type="submit" value="Enviar">
+          </form>
+      </section>
+
+      <h1>Conversor de Moeda para dólar</h1>
+      <section>
+        <form action="conversoravan.php" method="get">
+          <label for="din">Digite o valor que você tem na carteira:</label>
+          <input type="number" name="din" id="idValorDinheiro" step="0.01">
+          <input type="submit" value="Converter">
+        </form>
+      </section>
+    
+      <h1>Analisando um Número Real</h1>
+      <section>
+        <form action="analisar.php" method="post">
+          <label for="din">Digite um valor:</label>
+          <input type="number" name="din" id="" step="0.001">
+          <input type="submit" value="Verificar">
+        </form>
+      </section>
+      
+</body>
+</html>
